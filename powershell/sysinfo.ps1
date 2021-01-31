@@ -7,9 +7,10 @@ Write-Host(getIP)
 
 
 $IP = getIP
-$Date = ""
+$Date = Get-Date
 $Host1 = $Host.Version.Major
-$Body = "This machine's IP is $IP. User is $env:username. Hostname is $. PowerShell version $Host1. Today's Date is $Date"
+$Hostname = Get-WmiObject Win32_ComputerSystem | select Name
+$Body = "This machine's IP is $IP. User is $env:username. Hostname is $Hostname. PowerShell version $Host1. Today's Date is $Date"
 
 Write-Host($Body)
 
