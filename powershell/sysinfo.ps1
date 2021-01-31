@@ -4,6 +4,13 @@ function getIP {
     (Get-NetIPAddress).IPv4Address | Select-String "192*"
 }
 Write-Host(getIP)
+
+
 $IP = getIP
-Write-Host("This machines IP is $IP")
-Write-Host("This machine's IP is {0}" -f $IP)
+$Date = ""
+$Host1 = $Host.Version.Major
+$Body = "This machine's IP is $IP. User is $env:username. Hostname is $. PowerShell version $Host1. Today's Date is $Date"
+
+Write-Host($Body)
+
+#Send-MailMessage -To "wenhanja@mail.uc.edu" -From "wenhanja@mail.uc.edu" -Subject "IT3038c windows SysInfo" -Body $Body -smtpServer smtp.google.com -port 587 -UseSSL -Credential (Get-Credential)
