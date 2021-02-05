@@ -1,5 +1,5 @@
 /directoryname
 *.txt
-.pycashe
+.pycache
 *.log
 npm
