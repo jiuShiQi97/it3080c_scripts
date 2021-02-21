@@ -1,0 +1,16 @@
+Operating instructions:
+To run this game, you firstly need to download the PyGame package from the command table, 
+like: "PIP install (PyGame -1.9.6-cp37-cp37m-win_amd64.whl)" (The parentheses are for the version of PyGame you installed)
+You also need to download the font packs from the project folder and make sure they are in one folder for the game to work properly.
+
+Something want to say:
+I changed a lot of code for this game to realize some function I want to have, some of it worked and some of it didn't. 0-0
+I will continue to work to get the functionality implemented.
+
+Current features: 
+display score
+judge whether the snake is dead
+automatic exit
+
+Features not implemented yet:
+Add background, change snake and ball styles, add music
