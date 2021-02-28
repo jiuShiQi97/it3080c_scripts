@@ -15,6 +15,7 @@ var server = http.createServer(function (req, res) {
 
     else if (req.url.match("/sysinfo")) {
         myHostName = os.hostname();
+        //turn the os.uptime to ISO method
         ServerUpTime = new Date(os.uptime() * 1000).toISOString().substr(11, 8);
         totalMem = os.totalmem()/1048576;
         freeMem = os.freemem()/1048576;
