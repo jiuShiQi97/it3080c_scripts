@@ -11,6 +11,5 @@ for i in data:
 
 
 
-
 #dictionaries are in { } and use key value pairs
 #lists are in [ ]  and use numeric indexes [0-n]
