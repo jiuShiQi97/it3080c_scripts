@@ -3,7 +3,7 @@ from pygame.locals import *
 
 # define color
 ballColour = pygame.Color(245,0,0)
-#bgColour = pygame.Color(0,0,0)
+# bgColour = pygame.Color(0,0,0)
 snakeColour = pygame.Color(255,255,255)
 wordColour = pygame.Color(255,255,255)
 

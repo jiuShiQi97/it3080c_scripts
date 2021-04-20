@@ -1,0 +1,26 @@
+Operating instructions:
+To run this game, you firstly need to download the PyGame package from the command table,
+like: "PIP install (PyGame -1.9.6-cp37-cp37m-win_amd64.whl)" (The parentheses are for the version of PyGame you installed)
+You also need to download the packs from the project3 folder and make sure they are all in place for the game to work properly.
+
+If you can't run successfully, try to use the terminal command "py starwar.py"
+
+-----------------------------------------------------------------
+Game Introduce:
+WASD to move and you need avoid enemies hitting your aircraft
+Your plane will fire bullets, use bullets to destroy the enemy!
+Have Fun!(*^▽^*)
+-----------------------------------------------------------------
+Advantage:
+    Very Good Music!!!
+    Very Cool Plane and Background!! (Materials from the Internet)
+    Increases in difficulty over time!
+    The difficulty of the game can be changed with code!
+    Sprites were used to create Gif!!
+
+Deficiency:
+    1. The Sprite's built-in collision detection is confusing.
+        I'm very precise about the size of the pattern, but it's always crash at a long distance.
+    2. Add game icon
+        !!!!I don't know why I add icon can cause this little game's frames not stable (っ°Д°;)っ!!!!
+    3. I want add more enemy type and it's life bar, but it is a lot work to do. (>-<)
