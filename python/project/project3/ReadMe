@@ -17,6 +17,7 @@ Advantage:
     Increases in difficulty over time!
     The difficulty of the game can be changed with code!
     Sprites were used to create Gif!!
+    Object-oriented programming!
 
 Deficiency:
     1. The Sprite's built-in collision detection is confusing.
